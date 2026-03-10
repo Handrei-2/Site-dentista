@@ -15,9 +15,9 @@ const CONFIG = {
 
   /* ── CONTATO ─────────────────────────────── */
   // Somente números com DDI+DDD (ex: 5511999999999)
-  whatsappNum:     "5588998204022",
+  whatsappNum:     "5511999999999",
   // Telefone formatado para exibição
-  telefoneExibido: "(88) 99999-9999",
+  telefoneExibido: "(11) 99999-9999",
   // Nome de usuário do Instagram (sem @)
   instagram:       "drrafaelmendes",
 
