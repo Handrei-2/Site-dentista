@@ -15,7 +15,7 @@ const CONFIG = {
 
   /* ── CONTATO ─────────────────────────────── */
   // Somente números com DDI+DDD (ex: 5511999999999)
-  whatsappNum:     "5511998204022",
+  whatsappNum:     "5588998204022",
   // Telefone formatado para exibição
   telefoneExibido: "(88) 99999-9999",
   // Nome de usuário do Instagram (sem @)
@@ -59,7 +59,11 @@ const CONFIG = {
   ],
 
   /* ── DEPOIMENTOS ─────────────────────────── */
-  
+  depoimentos: [
+    { iniciais: "AM", nome: "Ana Maria S.",   servico: "Clareamento dental", texto: "O profissional transformou meu sorriso completamente. Atendimento impecável, ambiente moderno e resultado incrível no clareamento!" },
+    { iniciais: "CP", nome: "Carlos Pereira", servico: "Implante dentário",  texto: "Fiz implante e a experiência foi muito melhor do que eu esperava. Sem dor, suporte total e resultado perfeito."                     },
+    { iniciais: "JL", nome: "Juliana Lima",   servico: "Ortodontia",          texto: "Profissional extremamente competente e atencioso. Me indicou o melhor tratamento e acompanhou cada etapa. Super recomendo!"        },
+  ],
 
 };
 
