@@ -9,7 +9,7 @@
 const CONFIG = {
 
   /* ── DADOS DO DENTISTA ───────────────────── */
-  nome:        "Dr. Rafael Mendes",       // Nome completo exibido no site
+  nome:        "Dr. Matheus",       // Nome completo exibido no site
   titulo:      "Cirurgião-Dentista",      // Título profissional
   cro:         "CRO-SP 12.345",           // Registro profissional
 
@@ -29,8 +29,8 @@ const CONFIG = {
 
   /* ── FOTOS ───────────────────────────────── */
   // Use caminho relativo (ex: "fotos/hero.jpg") ou URL completa
-  fotoHero:  "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=600&q=80",
-  fotoSobre: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80",
+  fotoHero:  "Primeira.jpeg",
+  fotoSobre: "Segunda.jpeg",
 
   /* ── SEO ─────────────────────────────────── */
   cidade:   "São Paulo",
