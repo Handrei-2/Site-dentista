@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ✏️ SEO preenchido automaticamente pelo script.js -->
+  <title>Dentista</title>
+  <meta name="description" content="" />
+  <meta name="keywords"    content="" />
+  <meta property="og:title"       content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type"        content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVEGAÇÃO
+       ══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">✦</span>
+        <!-- ✏️ Nome preenchido pelo script -->
+        <span id="navLogo"></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Início</a></li>
+        <li><a href="#sobre"    class="nav-link">Sobre</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#contato"  class="nav-link">Contato</a></li>
+        <li>
+          <!-- ✏️ href preenchido pelo script -->
+          <a href="#" id="navWhatsapp" class="nav-cta link-whatsapp" target="_blank" rel="noopener">
+            Agendar Consulta
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════
+       HERO
+       ══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-dots"></div>
+    </div>
+    <div class="hero-container">
+
+      <div class="hero-content fade-in">
+        <!-- ✏️ CRO preenchido pelo script -->
+        <div class="hero-badge" id="heroBadge"></div>
+
+        <h1 class="hero-title">
+          Cuidando do seu<br/>
+          <em>sorriso</em> com<br/>
+          tecnologia &amp; dedicação
+        </h1>
+        <p class="hero-subtitle">
+          Oferecemos tratamentos odontológicos modernos em um ambiente acolhedor,
+          para que você se sinta seguro e confiante em cada visita.
+        </p>
+
+        <div class="hero-actions">
+          <!-- ✏️ href preenchido pelo script (.link-whatsapp) -->
+          <a href="#" class="btn btn-primary link-whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+        </div>
+
+        <!-- ✏️ Stats gerados pelo script -->
+        <div class="hero-stats" id="heroStats"></div>
+      </div>
+
+      <div class="hero-image fade-in-delay">
+        <div class="hero-image-frame">
+          <!-- ✏️ src e alt preenchidos pelo script -->
+          <img id="heroImg" src="" alt="" loading="eager" />
+          <div class="hero-image-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true">
+              <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <span>Atendimento humanizado</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SOBRE
+       ══════════════════════════════════════════ -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+
+      <div class="sobre-image reveal">
+        <!-- ✏️ Imagem + card flutuante gerados pelo script -->
+        <div class="sobre-image-wrap" id="sobreImg"></div>
+      </div>
+
+      <div class="sobre-content reveal">
+        <div class="section-tag">Sobre o Profissional</div>
+        <h2 class="section-title">Uma trajetória dedicada ao seu sorriso</h2>
+        <!-- ✏️ Textos preenchidos pelo script -->
+        <p class="sobre-text" id="sobreTexto1"></p>
+        <p class="sobre-text" id="sobreTexto2"></p>
+        <!-- ✏️ Credenciais geradas pelo script -->
+        <div class="sobre-credentials" id="credenciaisGrid"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SERVIÇOS
+       ══════════════════════════════════════════ -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">O que oferecemos</div>
+        <h2 class="section-title">Serviços Odontológicos</h2>
+        <p class="section-subtitle">Tratamentos completos para a saúde e beleza do seu sorriso</p>
+      </div>
+      <div class="servicos-grid">
+
+        <!-- ✏️ data-servico define o texto enviado no WhatsApp -->
+        <div class="servico-card reveal">
+          <div class="servico-icon">🦷</div>
+          <h3>Limpeza Dental</h3>
+          <p>Remoção de tártaro e placa bacteriana com equipamentos ultrassônicos para saúde e brilho natural.</p>
+          <a href="#" class="servico-link" data-servico="Limpeza Dental" target="_blank" rel="noopener">Saiba mais →</a>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="servico-icon">✨</div>
+          <h3>Clareamento Dental</h3>
+          <p>Procedimento seguro e eficaz para clarear os dentes em até 8 tons, com resultado duradouro.</p>
+          <a href="#" class="servico-link" data-servico="Clareamento Dental" target="_blank" rel="noopener">Saiba mais →</a>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="servico-icon">😁</div>
+          <h3>Aparelho Ortodôntico</h3>
+          <p>Opções metálicas, estéticas e alinhadores invisíveis para um sorriso alinhado e harmonioso.</p>
+          <a href="#" class="servico-link" data-servico="Aparelho Ortodôntico" target="_blank" rel="noopener">Saiba mais →</a>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="servico-icon">🔬</div>
+          <h3>Tratamento de Canal</h3>
+          <p>Endodontia precisa e sem dor para salvar o dente natural e eliminar infecções com tecnologia atual.</p>
+          <a href="#" class="servico-link" data-servico="Tratamento de Canal" target="_blank" rel="noopener">Saiba mais →</a>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="servico-icon">🛡️</div>
+          <h3>Restauração de Dentes</h3>
+          <p>Restaurações com resinas de alta estética, devolvendo a forma, função e naturalidade ao dente.</p>
+          <a href="#" class="servico-link" data-servico="Restauração de Dentes" target="_blank" rel="noopener">Saiba mais →</a>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="servico-icon">🔩</div>
+          <h3>Implantes Dentários</h3>
+          <p>Substitua dentes perdidos com implantes de titânio de última geração — fixos, confortáveis e duradouros.</p>
+          <a href="#" class="servico-link" data-servico="Implante Dentário" target="_blank" rel="noopener">Saiba mais →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       DEPOIMENTOS
+       ══════════════════════════════════════════ -->
+  <section class="depoimentos">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Depoimentos</div>
+        <h2 class="section-title">O que dizem nossos pacientes</h2>
+      </div>
+      <!-- ✏️ Cards gerados pelo script -->
+      <div class="depoimentos-grid" id="depoimentosGrid"></div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       CONTATO
+       ══════════════════════════════════════════ -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Fale Conosco</div>
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">Estamos prontos para cuidar do seu sorriso</p>
+      </div>
+
+      <div class="contato-grid">
+        <div class="contato-info reveal">
+
+          <div class="contato-item">
+            <div class="contato-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.17 9.82 19.79 19.79 0 01.11 1.2 2 2 0 012.1 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+              </svg>
+            </div>
+            <!-- ✏️ Telefone/WA preenchido pelo script -->
+            <div id="contatoTelefone"></div>
+          </div>
+
+          <div class="contato-item">
+            <div class="contato-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </div>
+            <!-- ✏️ Instagram preenchido pelo script -->
+            <div id="contatoInstagram"></div>
+          </div>
+
+          <div class="contato-item">
+            <div class="contato-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <!-- ✏️ Endereço preenchido pelo script -->
+            <div id="contatoEndereco"></div>
+          </div>
+
+          <div class="contato-item">
+            <div class="contato-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <!-- ✏️ Horário preenchido pelo script -->
+            <div id="contatoHorario"></div>
+          </div>
+
+          <div class="contato-actions">
+            <a href="#" class="btn btn-primary link-whatsapp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Agendar pelo WhatsApp
+            </a>
+            <!-- ✏️ href preenchido pelo script -->
+            <a href="#" id="contatoInstagramBtn" class="btn btn-outline" target="_blank" rel="noopener">
+              Ver no Instagram
+            </a>
+          </div>
+
+        </div>
+
+        <div class="contato-mapa reveal">
+          <!-- ✏️ src preenchido pelo script -->
+          <iframe
+            id="googleMapsIframe"
+            src=""
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title=""
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">✦</span>
+          <!-- ✏️ Nome preenchido pelo script -->
+          <span id="footerNome"></span>
+        </div>
+        <!-- ✏️ CRO e título preenchidos pelo script -->
+        <p class="footer-cro"  id="footerCro"></p>
+        <p class="footer-copy" id="footerCopy"></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════
+       BOTÃO FLUTUANTE WHATSAPP
+       ══════════════════════════════════════════ -->
+  <!-- ✏️ href preenchido pelo script -->
+  <a
+    href="#"
+    class="whatsapp-float"
+    id="whatsappFloat"
+    target="_blank"
+    rel="noopener"
+    aria-label="Falar pelo WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-float-text">Agendar consulta</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
