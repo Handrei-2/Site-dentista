@@ -29,8 +29,8 @@ const CONFIG = {
 
   /* ── FOTOS ───────────────────────────────── */
   // Use caminho relativo (ex: "fotos/hero.jpg") ou URL completa
-  fotoHero:  "Primeira.jpeg",
-  fotoSobre: "Segunda.jpeg",
+  fotoHero:  "C:\\Users\\handr\\Downloads\\Primeira.jpeg",
+  fotoSobre: "C:\\Users\\handr\\Downloads\\Segunda.jpeg",
 
   /* ── SEO ─────────────────────────────────── */
   cidade:   "São Paulo",
