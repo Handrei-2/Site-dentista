@@ -33,8 +33,8 @@ const CONFIG = {
   fotoSobre: "images/Segunda.jpeg",
 
   /* ── SEO ─────────────────────────────────── */
-  cidade:   "São Paulo",
-  metaDesc: "Clínica odontológica referência em São Paulo. Limpeza dental, clareamento, implantes e ortodontia. Agende pelo WhatsApp.",
+  cidade:   "Juazeiro do Norte",
+  metaDesc: "Clínica odontológica referência em Juazeiro do Norte. Limpeza dental, clareamento, implantes e ortodontia. Agende pelo WhatsApp.",
 
   /* ── SEÇÃO "SOBRE" ───────────────────────── */
   sobreTexto1: "Cirurgião-dentista formado pela Universidade de São Paulo (USP) com mais de 10 anos de experiência clínica. Especialista em Implantodontia e Estética Dental, combina conhecimento técnico avançado com atendimento acolhedor e personalizado.",
