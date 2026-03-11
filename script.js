@@ -15,11 +15,11 @@ const CONFIG = {
 
   /* ── CONTATO ─────────────────────────────── */
   // Somente números com DDI+DDD (ex: 5511999999999)
-  whatsappNum:     "5588998204022",
+  whatsappNum:     "558899999999",
   // Telefone formatado para exibição
-  telefoneExibido: "(88) 99820-4022",
+  telefoneExibido: "(88) 99999-9999",
   // Nome de usuário do Instagram (sem @)
-  instagram:       "drrafaelmendes",
+  instagram:       "instagram",
 
   /* ── LOCALIZAÇÃO ─────────────────────────── */
   endereco: "Av. Paulista, 1000 — Sala 501<br>Bela Vista, São Paulo — SP",
